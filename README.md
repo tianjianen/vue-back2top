@@ -15,7 +15,7 @@ import Back2Top from 'k-vue-back2top'
 step 3.
 
 components: {
-	Back2top
+  Back2top
 }
 
 step 4.
