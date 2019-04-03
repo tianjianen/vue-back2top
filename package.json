@@ -1,0 +1,58 @@
+{
+  "name": "k-vue-back2top",
+  "version": "0.0.4",
+  "private": false,
+  "main": "./dist/k-vue-back2top.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-lib": "vue-cli-service build --target lib --name k-vue-back2top ./src/components/index.js"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git@github.com:tianjianen/vue-back2top.git"
+  },
+  "keywords" : [
+    "vue",
+    "back2top"
+  ],
+  "license" : "MIT",
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
