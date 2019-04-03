@@ -1,6 +1,6 @@
 {
   "name": "k-vue-back2top",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "main": "./dist/k-vue-back2top.umd.min.js",
   "scripts": {
