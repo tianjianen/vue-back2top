@@ -1,7 +1,7 @@
 # vue-back2top
 
 
-### how to use
+### how to used
 ```javascript
 
 step 1.
